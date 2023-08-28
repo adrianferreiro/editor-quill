@@ -24,7 +24,7 @@ function App() {
 
       quill.on('text-change', () => {
         const editorContent = quill.root.innerHTML;
-        console.log('Contenido del editor:', editorContent);
+        // console.log('Contenido del editor:', editorContent);
 
         // Guardar el contenido en el Local Storage
         localStorage.setItem('editorContent', editorContent);
